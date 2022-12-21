@@ -8,7 +8,7 @@ env:
   credentials: "ENCRYPTED[!41ea26b6d46ace395c3bc825472bafe065de7cba199e962e219cf139bfbc107fe97915a98f4a6f060836e31a3403bfe0!]"
 
 task:
-  name: "Sync, Build and Upload"
+  name: "test"
   only_if: $CIRRUS_REPO_OWNER == 'monu3k'
   timeout_in: 120m
   container:
